@@ -103,7 +103,7 @@ function sendMessage() {
 function restartChat() {
     const chatLog = document.getElementById('chat-log');
     chatLog.innerHTML = '';
-    addMessageToChatLog("Bonjour ! Je m'appelle Jane, je suis le chatbot pour répondre à vos questions concernant l'université Suptech. Comment puis-je vous aider ?", 'bot');
+    addMessageToChatLog("Bonjour ! Je m'appelle Jane, je suis le chatbot pour répondre à vos questions concernant la STB Bank. Comment puis-je vous aider ?", 'bot');
 }
 
 // ====== Reconnaissance vocale ======
