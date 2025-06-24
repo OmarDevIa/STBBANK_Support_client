@@ -27,7 +27,7 @@ function addMessageToChatLog(message, sender = 'bot') {
 
     const logo = document.createElement('img');
     if (sender === 'bot') {
-        logo.src = 'bot_logo.png'; // Chemin vers le logo du bot
+        logo.src = 'Bot_logo.png'; // Chemin vers le logo du bot
         logo.alt = 'Bot Logo';
         logo.className = 'bot-logo';
     } else if (sender === 'user') {
